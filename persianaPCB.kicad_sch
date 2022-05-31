@@ -1,5 +1,81 @@
 (kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid cb918abb-adf5-4c08-ba3c-45bd8e0f64db)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 38.1 26.67) (size 49.53 38.1) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 77300f17-b1b3-4d4c-b2e0-f042e713f706)
+    (property "Sheet name" "fuente" (id 0) (at 38.1 25.9584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "fuente.kicad_sch" (id 1) (at 38.1 65.3546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/77300f17-b1b3-4d4c-b2e0-f042e713f706" (page "2"))
+  )
+
+  (symbol_instances
+    (path "/77300f17-b1b3-4d4c-b2e0-f042e713f706/3e1166fc-e23b-4d88-a199-865c66edba0e"
+      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/77300f17-b1b3-4d4c-b2e0-f042e713f706/7911fd89-44ce-45e9-ad09-26e7c50a66c4"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/77300f17-b1b3-4d4c-b2e0-f042e713f706/92e65ae0-2685-4bfa-8ad0-75d6f4a484a1"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/77300f17-b1b3-4d4c-b2e0-f042e713f706/c22743b5-8432-4b6e-bfc3-b16a16b79348"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/77300f17-b1b3-4d4c-b2e0-f042e713f706/15a9c483-2893-49bb-a97f-aaa7e30f3258"
+      (reference "C?") (unit 1) (value "4,7nF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+    )
+    (path "/77300f17-b1b3-4d4c-b2e0-f042e713f706/489dd143-9344-4a3a-86a4-574bd0864b19"
+      (reference "C?") (unit 1) (value "100nF 50V") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+    )
+    (path "/77300f17-b1b3-4d4c-b2e0-f042e713f706/824e9868-1c70-469b-8de3-e38b60f55bcf"
+      (reference "C?") (unit 1) (value "4,7uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+    )
+    (path "/77300f17-b1b3-4d4c-b2e0-f042e713f706/a35bef1c-1c41-4a77-8777-e2dc590e50ab"
+      (reference "C?") (unit 1) (value "220uF 16V") (footprint "")
+    )
+    (path "/77300f17-b1b3-4d4c-b2e0-f042e713f706/b851d618-0dbc-4617-bddf-daf442d3d32f"
+      (reference "C?") (unit 1) (value "100uF 35V") (footprint "Capacitor_SMD:CP_Elec_6.3x7.7")
+    )
+    (path "/77300f17-b1b3-4d4c-b2e0-f042e713f706/d223b466-6eb3-4e39-aa6e-8056f8a76113"
+      (reference "C?") (unit 1) (value "4,7uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+    )
+    (path "/77300f17-b1b3-4d4c-b2e0-f042e713f706/e0b52646-17e3-4841-b05b-fdf4623b2118"
+      (reference "C?") (unit 1) (value "100nF 50V") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+    )
+    (path "/77300f17-b1b3-4d4c-b2e0-f042e713f706/2afaad67-beaf-4d13-a987-8a50132de6cd"
+      (reference "D?") (unit 1) (value "B340") (footprint "Diode_SMD:D_SMC")
+    )
+    (path "/77300f17-b1b3-4d4c-b2e0-f042e713f706/90a1dd0b-7cef-4b9d-8410-d2a76523b77b"
+      (reference "L?") (unit 1) (value "47uH") (footprint "")
+    )
+    (path "/77300f17-b1b3-4d4c-b2e0-f042e713f706/0795ee4f-4c7e-4790-b8c4-113d5b15002e"
+      (reference "R?") (unit 1) (value "3,1K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/77300f17-b1b3-4d4c-b2e0-f042e713f706/9702165c-a86e-4428-ae36-1bc58642eaf5"
+      (reference "R?") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/77300f17-b1b3-4d4c-b2e0-f042e713f706/05cd86c1-bef1-48d9-85ea-afa6f7e1bf64"
+      (reference "U?") (unit 1) (value "LM2596S-ADJ") (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3")
+    )
+    (path "/77300f17-b1b3-4d4c-b2e0-f042e713f706/d778ded5-9c60-4ed6-b112-22e23a12f963"
+      (reference "U?") (unit 1) (value "LM1117-3.3") (footprint "Package_TO_SOT_SMD:TO-252-3_TabPin2")
+    )
+  )
 )
