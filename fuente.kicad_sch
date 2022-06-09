@@ -1312,7 +1312,7 @@
     (uuid d778ded5-9c60-4ed6-b112-22e23a12f963)
     (property "Reference" "U2" (id 0) (at 137.16 118.11 0))
     (property "Value" "LM1117-3.3" (id 1) (at 137.16 120.65 0))
-    (property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2" (id 2) (at 137.16 125.73 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2" (id 2) (at 137.16 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf" (id 3) (at 137.16 125.73 0)
