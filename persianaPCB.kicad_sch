@@ -750,7 +750,7 @@
       (reference "J1") (unit 1) (value "BORNERA-2") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal")
     )
     (path "/67d1a537-0191-48d8-8448-e2071330e71a/8be6a1b0-9784-4096-b0ad-2d202513f22f"
-      (reference "J2") (unit 1) (value "Conn_01x06_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
+      (reference "J2") (unit 1) (value "PINM-6") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
     )
     (path "/5668d23a-5270-4cfe-8377-acf8a5283935/22e77ceb-5cd9-4ea1-965d-8a56dca06ead"
       (reference "J3") (unit 1) (value "BORNERA-3") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal")
