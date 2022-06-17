@@ -469,21 +469,21 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid ac50cd10-2b41-47e3-b276-4e69dfee554b)
     )
-    (pin "GPIO12" bidirectional (at 185.42 95.25 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 4343a40a-7bc5-4a1d-a6ae-e44a83f9d987)
-    )
-    (pin "GPIO13" bidirectional (at 185.42 97.79 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid e35e4f6f-7457-4f9f-8cbc-0b4a31b9e8e3)
-    )
-    (pin "GPIO16" bidirectional (at 129.54 95.25 180)
+    (pin "GPIO14" bidirectional (at 129.54 95.25 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 32535c70-95f8-4dbf-ae88-9bad34350da3)
     )
-    (pin "GPIO14" bidirectional (at 129.54 97.79 180)
+    (pin "GPIO13" bidirectional (at 129.54 97.79 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid b65c2752-8d1e-4980-9966-3dd2dad1bf92)
+    )
+    (pin "GPIO4" bidirectional (at 185.42 97.79 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 7f52e737-0ec4-4c8f-ad31-3eee045e0b2a)
+    )
+    (pin "GPIO5" bidirectional (at 185.42 95.25 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid bed2047e-7a97-4388-a435-18bd1e986302)
     )
   )
 
@@ -674,6 +674,12 @@
     (path "/67fab5ee-48d4-4375-920a-f753cde86c7a/f19f8666-3005-4696-9906-0a3446875d8e"
       (reference "#PWR0104") (unit 1) (value "+VSW") (footprint "")
     )
+    (path "/67d1a537-0191-48d8-8448-e2071330e71a/76e69ec2-ea30-4cf6-bec7-bd3ab33574a7"
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/67d1a537-0191-48d8-8448-e2071330e71a/3c181f81-b776-4adc-baf5-24e4927b80f1"
+      (reference "#PWR0106") (unit 1) (value "+3.3V") (footprint "")
+    )
     (path "/77300f17-b1b3-4d4c-b2e0-f042e713f706/15a9c483-2893-49bb-a97f-aaa7e30f3258"
       (reference "C1") (unit 1) (value "4,7nF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
@@ -697,9 +703,6 @@
     )
     (path "/67d1a537-0191-48d8-8448-e2071330e71a/de81f1b1-9b85-40ca-9fe5-1962d3b543a2"
       (reference "C8") (unit 1) (value "100nF 50V") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-    )
-    (path "/67d1a537-0191-48d8-8448-e2071330e71a/47e4052a-c4f5-4fd8-a0b1-e9df9a45ea8d"
-      (reference "C9") (unit 1) (value "4,7uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/67d1a537-0191-48d8-8448-e2071330e71a/ffca6f22-ee74-4060-9bcc-9533a5653c5f"
       (reference "C10") (unit 1) (value "4,7uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -817,6 +820,12 @@
     )
     (path "/5668d23a-5270-4cfe-8377-acf8a5283935/59de3176-3ebd-4739-b645-36f8c7042562"
       (reference "R13") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/67d1a537-0191-48d8-8448-e2071330e71a/2389e7fc-1cf8-4473-a08a-6b090a91ae7c"
+      (reference "R14") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/67d1a537-0191-48d8-8448-e2071330e71a/68bd6e62-71eb-4a2d-856d-a9dfa6edaf7b"
+      (reference "R15") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/67d1a537-0191-48d8-8448-e2071330e71a/c21d2378-d84a-4389-a278-beae705eadc1"
       (reference "SW1") (unit 1) (value "TACT-SWITCH 7 mm") (footprint "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS")
