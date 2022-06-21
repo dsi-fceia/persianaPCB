@@ -505,6 +505,7 @@
     (uuid ae8c19c1-2aa2-4f74-9140-d5f86ae6a389)
   )
 
+  (no_connect (at 160.02 90.17) (uuid 0ab18eeb-9c36-4e96-bb19-fbd2de66bf3a))
   (no_connect (at 129.54 95.25) (uuid 1a32ae38-67c6-4003-9846-f34d2ce8802a))
   (no_connect (at 129.54 97.79) (uuid 1a32ae38-67c6-4003-9846-f34d2ce8802b))
   (no_connect (at 129.54 100.33) (uuid 1a32ae38-67c6-4003-9846-f34d2ce8802c))
