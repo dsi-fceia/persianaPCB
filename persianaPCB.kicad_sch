@@ -164,9 +164,9 @@
   )
 
   (no_connect (at 100.33 181.61) (uuid c42fc195-afb1-4420-9599-f3e4e06ead4f))
-  (no_connect (at 123.19 181.61) (uuid c42fc195-afb1-4420-9599-f3e4e06ead4f))
-  (no_connect (at 115.57 181.61) (uuid c42fc195-afb1-4420-9599-f3e4e06ead4f))
-  (no_connect (at 107.95 181.61) (uuid c42fc195-afb1-4420-9599-f3e4e06ead4f))
+  (no_connect (at 123.19 181.61) (uuid c42fc195-afb1-4420-9599-f3e4e06ead50))
+  (no_connect (at 115.57 181.61) (uuid c42fc195-afb1-4420-9599-f3e4e06ead51))
+  (no_connect (at 107.95 181.61) (uuid c42fc195-afb1-4420-9599-f3e4e06ead52))
 
   (wire (pts (xy 156.21 46.99) (xy 156.21 72.39))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -788,10 +788,10 @@
       (reference "Q2") (unit 1) (value "2N7002K") (footprint "Package_TO_SOT_SMD:SOT-23_Handsoldering")
     )
     (path "/77300f17-b1b3-4d4c-b2e0-f042e713f706/9702165c-a86e-4428-ae36-1bc58642eaf5"
-      (reference "R1") (unit 1) (value "1K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R1") (unit 1) (value "3K3") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/77300f17-b1b3-4d4c-b2e0-f042e713f706/0795ee4f-4c7e-4790-b8c4-113d5b15002e"
-      (reference "R2") (unit 1) (value "3,1K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R2") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/67d1a537-0191-48d8-8448-e2071330e71a/ce901982-a465-4b83-8d75-55b5b9a1ace7"
       (reference "R3") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
